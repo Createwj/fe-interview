@@ -1,5 +1,8 @@
 const a = [2,3,4];
 
+/**
+ * array属性
+ * **/
 
 console.log('---for---')
 for(let i=0;i<a.length;i++){
@@ -23,7 +26,7 @@ console.log('---filter---')
 console.log(b)
 
 console.log('-----map----') // 对数组中的每一项运行给定函数，返回每次函数调用的结果组成的数组
-const c = a.map(item => item);
+const c = a.map(item => item+1);
 console.log(c)
 
 console.log('---includes VS find---')
@@ -33,11 +36,11 @@ console.log(isHas)
 
 console.log('----some VS eveny ----')
 console.log(a.some(item => item >3))  // 对数组的每一项运行给定函数，有一项返回true，则返回true
-console.log(a.every(item => item >0))  // 对数组的每一项运行给定函数，需每一项都返回true，才会返回true
+console.log(a.every(item => item >0))  // 对数组的每一项运行给定函数，需每一项都返回false，才会返回false
 
 
 console.log('-----reduce-----') // 累加  基础值累加
-const result = a.reduce((prev,cur,index,arr)=>prev+cur);
+const result = a.reduce((prev,cur,index,arr)=>prev*cur);
 const results = a.reduce((prev,cur,index,arr)=>prev+cur,100);
 
 console.log(result);
@@ -56,3 +59,7 @@ Array.prototype.myReduce = function(callback, initialVal){
 }
 const resultss = a.myReduce((prev,cur,index,arr)=>prev+cur,100);
 console.log(resultss)
+
+/**
+ * 构造函数
+ * **/
