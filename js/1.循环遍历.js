@@ -1,4 +1,4 @@
-const a = [2,3,4];
+const a = [2,3,4,{abc:1}];
 
 /**
  * array属性
@@ -31,7 +31,7 @@ console.log(c)
 
 console.log('---includes VS find---')
 console.log(a.includes(1))
-const isHas = a.find(item => item.toString().indexOf(2) > -1)
+const isHas = a.find(item => item.toString().indexOf({abc:1}) > -1)
 console.log(isHas)
 
 console.log('----some VS eveny ----')
