@@ -37,3 +37,24 @@ class EventEmitter {
 // 使用发布订阅
 let em = new EventEmitter()
 let workday = 0;
+
+em.on('work', function (){
+  workday++
+  console.log('hard work for money')
+})
+
+em.once('love', function () {
+  console.log('just love you')
+})
+
+function makeMoney(){
+  console.log('make money for life')
+}
+em.on('money', makeMoney)
+
+
+em.emit('work');
+em.removeListener('work')
+em.emit('love');
+em.emit('money');
+em.emit('work');
