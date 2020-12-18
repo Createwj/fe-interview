@@ -20,9 +20,20 @@ app.use(async (ctx, next) => {
   await next()
 
   /**
-   * 跑出一个错误
+   * 抛出一个错误
    * **/
   ctx.throw(400, 'name required');
+
+
+  /**
+   * 等价与
+   * **/
+  const err = new Error('name required');
+  err.status = 400;
+  err.expose = true;
+  throw err;
+
+
   ctx.body = 'cookies test'
 })
 
