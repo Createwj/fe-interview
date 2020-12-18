@@ -1,0 +1,30 @@
+2020-12-18 18:16:54,146 ERROR 22636 [-/127.0.0.1/-/7ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/qsc/fe-interview/node/egg/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/qsc/fe-interview/node/egg/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/qsc/fe-interview/node/egg/node_modules/egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Users/qsc/fe-interview/node/egg/node_modules/egg-security/app/extend/context.js:104:13)
+    at csrf (/Users/qsc/fe-interview/node/egg/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/qsc/fe-interview/node/egg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/qsc/fe-interview/node/egg/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/qsc/fe-interview/node/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/qsc/fe-interview/node/egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/qsc/fe-interview/node/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 22636
+hostname: xinchengdeMacBook-Pro.local
+
+2020-12-18 18:18:25,988 ERROR 23126 [-/127.0.0.1/-/6ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/qsc/fe-interview/node/egg/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/qsc/fe-interview/node/egg/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/qsc/fe-interview/node/egg/node_modules/egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Users/qsc/fe-interview/node/egg/node_modules/egg-security/app/extend/context.js:104:13)
+    at csrf (/Users/qsc/fe-interview/node/egg/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/qsc/fe-interview/node/egg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/qsc/fe-interview/node/egg/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/qsc/fe-interview/node/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/qsc/fe-interview/node/egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/qsc/fe-interview/node/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 23126
+hostname: xinchengdeMacBook-Pro.local
+

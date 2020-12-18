@@ -1,0 +1,18 @@
+2020-12-18 18:16:14,112 INFO 22633 [Timer] /Users/qsc/fe-interview/node/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 36825890ms at 2020-12-19 04:30:00.002
+2020-12-18 18:16:14,113 INFO 22633 [Timer] /Users/qsc/fe-interview/node/egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 20625888ms at 2020-12-19 00:00:00.001
+2020-12-18 18:16:14,113 INFO 22633 [Timer] /Users/qsc/fe-interview/node/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 20626887ms at 2020-12-19 00:00:01.000
+2020-12-18 18:16:13,964 INFO 22636 [egg-schedule]: register schedule /Users/qsc/fe-interview/node/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-12-18 18:16:13,964 INFO 22636 [egg-schedule]: register schedule /Users/qsc/fe-interview/node/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-12-18 18:16:13,964 INFO 22636 [egg-schedule]: register schedule /Users/qsc/fe-interview/node/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-12-18 18:18:18,138 INFO 23126 [egg-schedule]: register schedule /Users/qsc/fe-interview/node/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-12-18 18:18:18,138 INFO 23126 [egg-schedule]: register schedule /Users/qsc/fe-interview/node/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-12-18 18:18:18,138 INFO 23126 [egg-schedule]: register schedule /Users/qsc/fe-interview/node/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-12-18 18:18:18,299 INFO 23123 [Timer] /Users/qsc/fe-interview/node/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 36701704ms at 2020-12-19 04:30:00.003
+2020-12-18 18:18:18,299 INFO 23123 [Timer] /Users/qsc/fe-interview/node/egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 20501701ms at 2020-12-19 00:00:00.000
+2020-12-18 18:18:18,300 INFO 23123 [Timer] /Users/qsc/fe-interview/node/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 20502701ms at 2020-12-19 00:00:01.001
+2020-12-18 18:19:51,279 INFO 23263 [Timer] /Users/qsc/fe-interview/node/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 36608723ms at 2020-12-19 04:30:00.002
+2020-12-18 18:19:51,280 INFO 23263 [Timer] /Users/qsc/fe-interview/node/egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 20408721ms at 2020-12-19 00:00:00.001
+2020-12-18 18:19:51,280 INFO 23263 [Timer] /Users/qsc/fe-interview/node/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 20409720ms at 2020-12-19 00:00:01.000
+2020-12-18 18:19:51,116 INFO 23264 [egg-schedule]: register schedule /Users/qsc/fe-interview/node/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-12-18 18:19:51,116 INFO 23264 [egg-schedule]: register schedule /Users/qsc/fe-interview/node/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-12-18 18:19:51,116 INFO 23264 [egg-schedule]: register schedule /Users/qsc/fe-interview/node/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
