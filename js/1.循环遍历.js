@@ -1,4 +1,4 @@
-const a = [2,3,4,{abc:1}];
+const a = [2,3,4,5,6,7];
 
 /**
  * array属性
@@ -20,7 +20,7 @@ for(let i in a) {
   console.log(a[i])
 }
 
-const b = a.filter(item=>item>2) //对数组中的每一项运行给定函数，返回该函数返回true的项组成的数组
+const b = a.filter(item => item > 2) //对数组中的每一项运行给定函数，返回该函数返回true的项组成的数组
 
 console.log('---filter---')
 console.log(b)
