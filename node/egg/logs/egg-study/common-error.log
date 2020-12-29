@@ -28,3 +28,35 @@ hostname: xinchengdeMacBook-Pro.local
 pid: 23126
 hostname: xinchengdeMacBook-Pro.local
 
+2020-12-18 19:08:41,233 ERROR 26873 nodejs.ClusterClientNoResponseError: client no response in 184367ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/qsc/fe-interview/node/egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 26873
+hostname: xinchengdeMacBook-Pro.local
+
+2020-12-18 19:13:38,812 ERROR 26873 nodejs.ClusterClientNoResponseError: client no response in 257559ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/qsc/fe-interview/node/egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 26873
+hostname: xinchengdeMacBook-Pro.local
+
+2020-12-19 07:32:48,465 ERROR 26873 nodejs.ClusterClientNoResponseError: client no response in 43269453ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/qsc/fe-interview/node/egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 26873
+hostname: xinchengdeMacBook-Pro.local
+
+2020-12-21 09:24:27,737 ERROR 26873 nodejs.ClusterClientNoResponseError: client no response in 179499196ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/qsc/fe-interview/node/egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 26873
+hostname: xinchengdeMacBook-Pro.local
+

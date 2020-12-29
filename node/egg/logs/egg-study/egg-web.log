@@ -54,3 +54,22 @@
 2020-12-18 18:48:16,661 INFO 26875 [egg:core] dump config after load, 4ms
 2020-12-18 18:48:16,671 INFO 26875 [egg-watcher:application] watcher start success
 2020-12-18 18:48:16,676 INFO 26875 [egg:core] dump config after ready, 4ms
+2020-12-18 19:08:41,226 WARN 26875 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-12-18 19:13:38,813 WARN 26875 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-12-19 07:32:48,519 WARN 26875 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-12-19 07:32:48,522 WARN 26875 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-12-21 09:24:27,740 WARN 26875 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-12-21 09:45:43,080 INFO 33337 [egg:logger] init all loggers with options: {"dir":"/Users/qsc/fe-interview/node/egg/logs/egg-study","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-study-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-21 09:45:43,107 INFO 33337 [egg-multipart] stream mode enable
+2020-12-21 09:45:43,241 INFO 33337 [egg-static] starting static serve /public/ -> /Users/qsc/fe-interview/node/egg/app/public
+2020-12-21 09:45:43,244 INFO 33337 [egg-security] use csrf middleware
+2020-12-21 09:45:43,245 INFO 33337 [egg-security] use methodnoallow middleware
+2020-12-21 09:45:43,246 INFO 33337 [egg-security] use noopen middleware
+2020-12-21 09:45:43,247 INFO 33337 [egg-security] use nosniff middleware
+2020-12-21 09:45:43,248 INFO 33337 [egg-security] use xssProtection middleware
+2020-12-21 09:45:43,249 INFO 33337 [egg-security] use xframe middleware
+2020-12-21 09:45:43,250 INFO 33337 [egg-security] use dta middleware
+2020-12-21 09:45:43,250 INFO 33337 [egg-security] compose 7 middlewares into one security middleware
+2020-12-21 09:45:43,260 INFO 33337 [egg:core] dump config after load, 4ms
+2020-12-21 09:45:43,274 INFO 33337 [egg-watcher:application] watcher start success
+2020-12-21 09:45:43,280 INFO 33337 [egg:core] dump config after ready, 5ms
